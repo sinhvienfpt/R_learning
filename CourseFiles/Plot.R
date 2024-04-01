@@ -10,9 +10,15 @@ library(datasets)  # Load/unload base packages manually
 head(iris)
 
 # PLOT DATA WITH PLOT() ####################################
-
-?plot  # Help for plot()
-
+3**44
+?plot  # Help for plot()\
+plot(1:10, 
+     col='#00E0FF',
+     cex = 3,
+     pch=11,
+     main="My Graph",
+     xlab="The x-axis", 
+     ylab="The y axis")
 plot(iris$Species)  # Categorical variable
 plot(iris$Petal.Length)  # Quantitative variable
 plot(iris$Species, iris$Petal.Width)  # Cat x quant
